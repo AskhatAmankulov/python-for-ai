@@ -7,7 +7,7 @@ import os
 # Calculate dates
 today = datetime.now()
 week_ago = today - timedelta(days=7)
-
+#updates
 # Format dates for API (YYYY-MM-DD)
 start_date = week_ago.strftime("%Y-%m-%d")
 end_date = today.strftime("%Y-%m-%d")
